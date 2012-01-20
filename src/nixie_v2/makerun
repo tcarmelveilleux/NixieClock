@@ -1,0 +1,6 @@
+#!/bin/sh
+ca65 -o nixie.o nixie.s
+ld65 -vm -Ln nixie.lst -m nixie.map -o nixie.tmp -C linker.cfg nixie.o
+cat nixie.tmp nixie.tmp > nixie.bin
+cp nixie.bin emp10
+rm nixie.tmp

@@ -1,0 +1,33 @@
+Modules list:
+-------------
+nixie.o:
+    CODE              Offs = 000000   Size = 0009E3
+    RODATA            Offs = 000000   Size = 000000
+    BSS               Offs = 000000   Size = 000000
+    DATA              Offs = 000000   Size = 000000
+    ZEROPAGE          Offs = 000000   Size = 000013
+    NULL              Offs = 000000   Size = 000000
+    VECTORS           Offs = 000000   Size = 000006
+
+
+Segment list:
+-------------
+Name                  Start   End     Size
+--------------------------------------------
+BSS                   000000  000000  000000
+DATA                  000000  000000  000000
+NULL                  000000  000000  000000
+ZEROPAGE              000000  000012  000013
+CODE                  001000  0019E2  0009E3
+RODATA                0019E3  0019E3  000000
+VECTORS               001FFA  001FFF  000006
+
+
+Exports list:
+-------------
+
+
+
+Imports list:
+-------------
+

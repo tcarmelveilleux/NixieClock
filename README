@@ -1,0 +1,22 @@
+This is a Nixie Clock project I started back in 2000 and finished in 2005.
+
+It took me 3 years to finish because I fried it twice :) That's what
+high-voltage tube power supplies do to TTL logic when you short the
+rails outs with a screwdriver...
+
+Schematics are handmade and somewhat ratty, but they are what they are.
+
+Source code for firmware included. Some bugfixes were done in 2005,
+but I don't remember what they were :)
+
+The clock still works and was repaired 3 times (floor drops that made
+the chips pop out, etc.)
+
+Nixie tubes were graciously provided by Kevin Horton in 2000.
+
+Code is provided under the MIT license (see file LICENSE).
+
+Enjoy !
+
+- Tennessee Carmel-Veilleux <tcv -at- ro.boto.ca>
+  January 19th, 2012
